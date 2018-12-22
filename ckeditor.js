@@ -29,35 +29,35 @@ export default class ClassicEditor extends Editor {}
 
 // Plugins to include in the build
 ClassicEditor.builtinPlugins = [
-    Essentials,
-    Paragraph,
-    Autoformat,
-    Heading,
-    Quote,
-    Bold,
-    Italic,
-    Underline,
-    Strike,
-    Superscript,
-    Subscript,
-    Code,
-    Link,
-    List,
-    Image,
-    ImageCaption,
-    ImageToolbar,
-    ImageStyle,
-    ImageTextAlternative,
-    ImageUpload,
-    SimpleUpload,
-    Table,
-    TableToolbar,
-    MediaEmbed
+  Essentials,
+  Paragraph,
+  Autoformat,
+  Heading,
+  Quote,
+  Bold,
+  Italic,
+  Underline,
+  Strike,
+  Superscript,
+  Subscript,
+  Code,
+  Link,
+  List,
+  Image,
+  ImageCaption,
+  ImageToolbar,
+  ImageStyle,
+  ImageTextAlternative,
+  ImageUpload,
+  SimpleUpload,
+  Table,
+  TableToolbar,
+  MediaEmbed
 ];
 
 ClassicEditor.defaultConfig = {
-    toolbar: ['bold', 'italic', 'link'],
-    language: 'en'
+  toolbar: ['bold', 'italic', 'link'],
+  language: 'en'
 };
 
 // Expose to global
