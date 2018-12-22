@@ -1,11 +1,10 @@
 {
-  "name": "ckeditor",
-  "version": "1.0.0",
-  "description": "CKEditor test.",
+  "private": true,
   "scripts": {
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-autoformat": "^10.0.4",
     "@ckeditor/ckeditor5-basic-styles": "^10.1.0",
     "@ckeditor/ckeditor5-block-quote": "^10.1.1",
     "@ckeditor/ckeditor5-dev-utils": "^11.0.1",
@@ -27,7 +26,5 @@
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2"
   },
-  "devDependencies": {
-    "@ckeditor/ckeditor5-autoformat": "^10.0.4"
-  }
+  "devDependencies": {}
 }

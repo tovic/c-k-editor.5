@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CKEditor 5 Custom Build</title>
+  </head>
+  <body>
+    <textarea id="editor">&lt;p&gt;Editor content goes here.&lt;/p&gt;</textarea>
+    <script src="dist/ckeditor.js"></script>
+    <script>
+    ClassicEditor.create(document.querySelector('#editor'), {
+      toolbar: [
+        'heading',
+        '|',
+        'bold',
+        'italic',
+        'underline',
+        'strikethrough',
+        'superscript',
+        'subscript',
+        'code',
+        'link',
+        'bulletedList',
+        'numberedList',
+        'imageUpload',
+        'blockQuote',
+        'insertTable',
+        'mediaEmbed',
+        'undo',
+        'redo'
+      ],
+      // simpleUpload: {
+      //   uploadUrl: 'upload.php'
+      // }
+    }).then(function(editor) {
+      window.editor = editor;
+    });
+    </script>
+  </body>
+</html>
